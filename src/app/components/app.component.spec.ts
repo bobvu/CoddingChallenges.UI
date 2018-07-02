@@ -78,10 +78,10 @@ describe('AppComponent', () => {
         expect(app).toBeTruthy();
     }));
 
-    it(`should have as title 'Quick Application'`, async(() => {
+    it(`should have as title 'Codding Challenges'`, async(() => {
         const fixture = TestBed.createComponent(AppComponent);
         const app = <AppComponent>fixture.debugElement.componentInstance;
-        expect(app.appTitle).toEqual('Quick Application');
+        expect(app.appTitle).toEqual('Codding Challenges');
     }));
 
     it('should render Loaded! in a h1 tag', async(() => {

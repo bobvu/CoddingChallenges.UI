@@ -10,6 +10,6 @@
 
 export const environment = {
     production: false,
-    baseUrl: null, //Change this to the address of your backend API if different from frontend address
-    loginUrl: "/Login"
+    baseUrl: "http://45.77.49.147:5109", //Change this to the address of your backend API if different from frontend address
+    loginUrl: "/connect/token"
 };

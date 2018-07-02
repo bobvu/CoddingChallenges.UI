@@ -30,7 +30,7 @@ export class ConfigurationService {
 
     public baseUrl = environment.baseUrl || Utilities.baseUrl();
     public loginUrl = environment.loginUrl;
-    public fallbackBaseUrl = "http://quickapp.ebenmonney.com";
+    public fallbackBaseUrl = "http://itmb.com.au";
 
     //***Specify default configurations here***
     public static readonly defaultLanguage: string = "en";
